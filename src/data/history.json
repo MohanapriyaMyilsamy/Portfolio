@@ -1,0 +1,14 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Genpixels Tech Pvt Ltd",
+    "startDate": "oct, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Transitioned to a key role in a live project, utilizing React and Next.js to design and implement responsive web applications, ensuring cross-device compatibility and seamless user experiences.",
+      "Applied advanced tools and methodologies, including Storybook for UI component development and Jest for thorough testing, contributing to the creation of high-quality, reliable web solutions.",
+      "Collaborated with cross-functional teams to deliver innovative and user-centric designs, playing a critical role in project success and achieving performance goals."
+    ],
+    "imageSrc": "assets/history/logo.png"
+  }
+]

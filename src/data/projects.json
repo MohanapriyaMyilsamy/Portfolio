@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Mr.22 Papercups",
+    "imageSrc": "assets/projects/Mr.22.png",
+    "description": "This project goal is eco-friendly and addressed environment with single user.",
+    "skills": ["Nextjs", "Styled-components"]
+  },
+  {
+    "title": "Sapzcodes",
+    "imageSrc": "assets/projects/sapz.png",
+    "description": "The website should reflect the company's brand identity that resonate with the target audience.",
+    "skills": ["Nextjs", "Styled-components"]
+  },
+  {
+    "title": "E-commerce(Current-Project)",
+    "imageSrc": "assets/projects/E-commerce.png",
+    "description": "This project goal is  is to create a user-friendly website where users can easily purchase products.",
+    "skills": ["Nextjs", "Strapi", "Styled-components"]
+  }
+]
