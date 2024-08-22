@@ -6,7 +6,7 @@ export const Myself = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Mohanapriya</h1>
+      <h1 className={styles.title}>Hi, I&apos;m Mohanapriya</h1>
         <p className={styles.description}>
         I am a front-end developer with 11 months of experience using Next.js and am now ready to expand into backend development. I am currently learning Node.js and MongoDB to enhance my skills and take on full-stack projects.
         </p>
