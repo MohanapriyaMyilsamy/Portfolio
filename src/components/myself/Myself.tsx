@@ -1,18 +1,29 @@
 import React from "react";
 import styles from "./Myself.module.css";
+import { FaDownload } from "react-icons/fa";
 
 export const Myself = () => {
-
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-      <h1 className={styles.title}>Hi, I&apos;m Mohanapriya</h1>
-        <p className={styles.description}>
-        I am a front-end developer with 11 months of experience using Next.js and am now ready to expand into backend development. I am currently learning Node.js and MongoDB to enhance my skills and take on full-stack projects.
-        </p>
-        <a href="#contact" className={styles.contactBtn}>
-          Contact
-        </a>
+        <h1 className={styles.title}>
+          Hi, I&apos;m <span>Mohanapriya Myilsamy</span>
+        </h1>
+        <h2 className={styles.description}>I&apos;m a professional <span>Software Engineer</span> with 1 year of experience</h2>
+        <div>
+          <a href="#contact" className={styles.contactBtn}>
+            Contact
+          </a>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1ympD-7QssIPKSzuIrPpAei8lp1FgYDcu"
+            className={styles.resumeBtn}
+          >
+            Resume{" "}
+            <FaDownload
+              style={{ position: "relative", top: "2px", fontSize: "15px" }}
+            />
+          </a>
+        </div>
       </div>
       <img
         src="assets/myself/Priya.jpg"

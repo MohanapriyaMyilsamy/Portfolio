@@ -30,10 +30,10 @@ export const Navbar = () => {
             <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1ympD-7QssIPKSzuIrPpAei8lp1FgYDcu/view?usp=sharing" target="_blank">Resume</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
