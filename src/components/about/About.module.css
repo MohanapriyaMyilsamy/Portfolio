@@ -15,55 +15,33 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .content {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap:40px;
 }
 
 .aboutImage {
-  width: 35%;
+  width: 25%;
+  border-radius: 10px;
 }
 
-.aboutItems {
-  color: var(--color-text);
+.aboutItemText {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  row-gap: 20px;
 }
 
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  list-style: none;
-  padding: 25px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
+.aboutItemText p{
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 27px;
 }
 
-.aboutItem:hover {
-  background-size: 100% 100%;
-}
-
-.aboutItem h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.aboutItem p {
-  font-size: 16px;
-  padding-top: 10px;
-}
 
 @media screen and (max-width: 830px) {
   .container {

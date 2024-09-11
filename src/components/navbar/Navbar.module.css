@@ -30,9 +30,13 @@
 }
 
 .menuItems a {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.menuItems a:hover {
+   color: #ea0979;
 }
 
 @media screen and (max-width: 830px) {

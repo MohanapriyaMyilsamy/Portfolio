@@ -8,6 +8,10 @@
     "imageSrc": "assets/skills/css.png"
   },
   {
+    "title": "Javascript",
+    "imageSrc": "assets/skills/javascript.png"
+  },
+  {
     "title": "React",
     "imageSrc": "assets/skills/react.png"
   },
@@ -16,11 +20,39 @@
     "imageSrc": "assets/skills/nextjs.png"
   },
   {
+    "title": "Typescript",
+    "imageSrc": "assets/skills/typescript.png"
+  },
+  {
+    "title": "Node js",
+    "imageSrc": "assets/skills/node.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "assets/skills/mongodb.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "assets/skills/git.png"
+  },
+  {
+    "title": "Bootstraph",
+    "imageSrc": "assets/skills/bootstrap.png"
+  },
+  {
+    "title": "MaterialUI",
+    "imageSrc": "assets/skills/materialui.jpg"
+  },
+  {
     "title": "GraphQL",
     "imageSrc": "assets/skills/graphql.png"
   },
   {
     "title": "Strapi",
     "imageSrc": "assets/skills/strapi.png"
+  },
+  {
+    "title": "SEO",
+    "imageSrc": "assets/skills/seo.png"
   }
 ]

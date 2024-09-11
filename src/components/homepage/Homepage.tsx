@@ -5,6 +5,7 @@ import { Experience } from '../experience/Experience'
 import { Projects } from '../projects/Projects'
 import { Myself } from '../myself/Myself'
 import { Contact } from '../contact/Contact'
+import Skills from '../skills/Skills'
 
 
 const Homepage = () => {
@@ -14,6 +15,7 @@ const Homepage = () => {
       <Myself/>
       <About />
       <Experience />
+      <Skills/>
       <Projects />
       <Contact/>
     </>
