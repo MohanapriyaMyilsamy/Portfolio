@@ -2,4 +2,4 @@
 User-agent: *
 Allow:
 Disallow: 
-Sitemap: https://mohanapriyamyilsamyportfolio.netlify.app/
+Sitemap: https://mohanapriyamyilsamyportfolio.netlify.app/sitemap.xml

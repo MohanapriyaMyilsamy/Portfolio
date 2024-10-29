@@ -43,6 +43,7 @@ export default function RootLayout({
               gtag('config', 'G-40RP3MWSFL');
             `}
         </script>
+        
       </head>
       <body className={inter.className}>{children}</body>
     </html>
