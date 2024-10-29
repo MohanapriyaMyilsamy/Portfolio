@@ -4,12 +4,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Mohanapriya Portfolio",
-  description:
-    "Experienced Frontend Developer skilled in React, Next.js, and responsive design. Specializing in UI, dynamic websites, and seamless user experiences.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,18 +12,36 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="title" content="Mohanapriya Portfolio" />
+        <title>Mohanapriya Porfolio</title>
         <meta
           name="description"
           content="Experienced Frontend Developer skilled in React, Next.js, and responsive design. Specializing in UI, dynamic websites, and seamless user experiences."
-        />
+        ></meta>
         <meta
           name="keywords"
-          content="portfolio website, portfolio, portfolio design, portfolio website templates, portfolio template, Nextjs portfolio, mohanapriya portfolio"
+          content="portfolio,my portfolio,select portfolio,portfolio website,portfolio examples"
+        ></meta>
+        <meta name="robots" content="index, follow"></meta>
+        <meta
+          httpEquiv="Content-Type"
+          content="text/html; charset=utf-8"
+        ></meta>
+        {/* open graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Mohanapriya Portfolio" />
+        <meta
+          property="og:url"
+          content="https://mohanapriyamyilsamyportfolio.netlify.app/"
         />
-        <meta name="robots" content="index, follow" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="English" />
+        <meta
+          property="og:image"
+          content="https://mohanapriyamyilsamyportfolio.netlify.app/_next/image?url=%2Fprofile.jpeg&w=640&q=75"
+        />
+        <meta
+          property="og:description"
+          content="Experienced Frontend Developer skilled in React, Next.js, and responsive design. Specializing in UI, dynamic websites, and seamless user experiences."
+        />
+        <meta name="language" content="English"></meta>
         {/* Google tag (gtag.js)  */}
         <script
           async
@@ -43,7 +55,6 @@ export default function RootLayout({
               gtag('config', 'G-40RP3MWSFL');
             `}
         </script>
-        
       </head>
       <body className={inter.className}>{children}</body>
     </html>
