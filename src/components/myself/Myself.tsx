@@ -15,7 +15,7 @@ export const Myself = () => {
             Contact
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=1N8tUlzPfNYuWLtNbHJk-pL4E8XkIsJCo" target="_blank"
+            href="https://drive.google.com/uc?export=download&id=1N8tUlzPfNYuWLtNbHJk-pL4E8XkIsJCo"
             className={styles.resumeBtn}
           >
             Resume{" "}

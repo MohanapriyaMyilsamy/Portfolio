@@ -30,6 +30,19 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
+        {/* Google tag (gtag.js)  */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-40RP3MWSFL"
+        ></script>
+        <script>
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-40RP3MWSFL');
+            `}
+        </script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
