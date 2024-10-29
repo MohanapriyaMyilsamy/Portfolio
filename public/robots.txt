@@ -1,5 +1,5 @@
 # robots.txt
 User-agent: *
-Allow:
+Allow:/
 Disallow: 
 Sitemap: https://mohanapriyamyilsamyportfolio.netlify.app/sitemap.xml
