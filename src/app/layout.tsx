@@ -28,7 +28,7 @@ export default function RootLayout({
           content="portfolio website, portfolio, portfolio design, portfolio website templates, portfolio template, Nextjs portfolio, mohanapriya portfolio"
         />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
       </head>
       <body className={inter.className}>{children}</body>
